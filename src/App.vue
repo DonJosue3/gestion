@@ -2,7 +2,6 @@
 import LoginView from "./components/LoginView.vue"
 import ListeEmployes from "./views/ListeEmployes.vue";
 import SalairesView from "./views/SalairesView.vue";
-import SalairesView from "./views/SalairesView.vue";
     export default{
         components:{ListeEmployes},
         watch: {
