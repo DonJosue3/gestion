@@ -1,6 +1,8 @@
 <script >
 import LoginView from "./components/LoginView.vue"
 import ListeEmployes from "./views/ListeEmployes.vue";
+import SalairesView from "./views/SalairesView.vue";
+import SalairesView from "./views/SalairesView.vue";
     export default{
         components:{ListeEmployes},
         watch: {
@@ -26,7 +28,7 @@ import ListeEmployes from "./views/ListeEmployes.vue";
 
 <template>
     <router-view v-if="$store.state.user!=null" ></router-view>
-    <ListeEmployes v-else ></ListeEmployes>
+    <SalairesView v-else ></SalairesView>
 </template>
 
 <style>
