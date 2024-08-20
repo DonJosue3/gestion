@@ -70,7 +70,7 @@ export default {
             return `${personne.nom} ${personne.prenom}`
         },
         fetchSalaires(){
-            axios.get("/salaire/")
+            axios.get("salaire/")
             .then((response)=>{
                 this.salaires = response.data.results
               
