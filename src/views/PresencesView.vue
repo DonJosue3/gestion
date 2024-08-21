@@ -67,7 +67,7 @@ export default {
     fetchPresences() {
       console.log(this.headers);
       axios
-        .get("/presences/", this.headers)
+        .get("presences/", this.headers)
         .then((response) => {
           this.presences = response.data.results;
           console.log(this.presences);
