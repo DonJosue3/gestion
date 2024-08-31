@@ -1,7 +1,7 @@
 <template>
     <section class="wrapper">
         <div class="separator">
-            <div @click="$store.state.user=null">Logout</div>
+            <div >Logout</div>
             <strong>Liste des utilisateur</strong>
 
             <div class="interaction">
