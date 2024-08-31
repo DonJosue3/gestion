@@ -71,7 +71,7 @@
     </section>
 </template>
 <script>
-import SalairesView from "./SalairesView.vue"
+import SalairesView from "../SalairesView.vue"
 import ModalAddEmploye from "../components/dialog_add_employe.vue"
 import AddConge from "../components/dialog_add_conge.vue"
 import ModifierEmploye from "../components/modal_edit_employe.vue"
