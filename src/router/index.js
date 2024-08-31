@@ -5,9 +5,7 @@ import SalairesView from '../views/SalairesView.vue'
 import PresencesView from '../views/PresencesView.vue'
 import CounterView from '@/views/CounterView.vue'
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
+const routes =  [
     {
       path:"/",
       name:"listeEmployes",
@@ -34,6 +32,9 @@ const router = createRouter({
       component:CounterView
     }
   ]
+const router = createRouter({
+  history: createWebHistory(),
+  routes
 })
 
 export default router
