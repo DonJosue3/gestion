@@ -1,8 +1,10 @@
 <script >
-import LoginView from "./components/LoginView.vue"
 import SalairesView from "./views/SalairesView.vue";
-import ListeEmployes from "./views/ListeEmployes.vue";
-
+export default {
+  components: {
+    SalairesView
+  }
+}
 </script>
 
 <template>
