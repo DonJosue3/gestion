@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import ListeEmployes from "../views/ListeEmployes.vue"
 import ListeVoitures from "../views/ListeVoitures.vue"
-import SalairesView from '../SalairesView.vue'
+import SalairesView from '../views/SalairesView.vue'
 import PresencesView from '../views/PresencesView.vue'
 import CounterView from '@/views/CounterView.vue'
 
