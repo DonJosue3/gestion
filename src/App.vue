@@ -25,7 +25,7 @@ import ListeEmployes from "./views/ListeEmployes.vue";
 </script>
 
 <template>
-    <router-view v-if="$store.state.user!=null" ></router-view>
+    <router-view v-if="$store.state.user!=null"></router-view>
     <ListeEmployes v-else ></ListeEmployes>
 </template>
 

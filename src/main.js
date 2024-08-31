@@ -11,18 +11,7 @@ window.axios = axiosInstance
 const app = createApp(App)
 
 app.use(router)
-app.mixin({
-    computed:{
-        headers(){
-            return{
-                headers:{
-                    "Authorization":"Bearer "+this.$store.state.user.access
-                }
-            }
-        }
-        
-    } 
-})
+
 app.use(store)
 
 
