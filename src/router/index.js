@@ -8,7 +8,11 @@ import CounterView from '@/views/CounterView.vue'
 const routes =  [
     {
       path:"/",
-      name:"listeEmployes",
+      redirect:"/liste"
+    },
+    {
+      path:"/liste",
+      name:"listeemployes",
       component:ListeEmployes
     },
     {
