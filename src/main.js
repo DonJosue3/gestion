@@ -1,9 +1,29 @@
-import { createApp } from 'vue';
-import App from './App.vue';
-import router from './router';  // Import Vue Router if used
-import store from './store';    // Import Vuex store if used
+import './assets/main.css'
+import { computed, createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
 
-createApp(App)
-    .use(router)  // Use Vue Router if applicable
-    .use(store)   // Use Vuex store if applicable
-    .mount('#app');
+import { axiosInstance } from './plugins/axios'
+
+window.axios = axiosInstance
+
+const app = createApp(App)
+
+app.use(router)
+app.mixin({
+    computed:{
+        headers(){
+            return{
+                headers:{
+                    "Authorization":"Bearer "+this.$store.state.user.access
+                }
+            }
+        }
+        
+    } 
+})
+app.use(store)
+
+
+app.mount('#app')

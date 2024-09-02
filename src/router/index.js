@@ -7,7 +7,7 @@ import CounterView from '@/views/CounterView.vue'
 
 const routes =  [
     {
-      path:"/liste",
+      path:"/",
       name:"listeEmployes",
       component:ListeEmployes
     },
@@ -17,7 +17,7 @@ const routes =  [
       component:ListeVoitures
     },
     {
-      path:"/",
+      path:"/salaires",
       name:"listeSalaires",
       component:SalairesView
     },

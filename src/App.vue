@@ -1,15 +1,11 @@
 <script >
-import SalairesView from "./views/SalairesView.vue";
-export default {
-  components: {
-    SalairesView
-  }
-}
+import LoginView from "./components/LoginView.vue"
+import ListeEmployes from "./views/ListeEmployes.vue";
+
 </script>
 
 <template>
-    <router-view v-if="$store.state.user!=null"></router-view>
-	<SalairesView v-else></SalairesView>
+    <ListeEmployes ></ListeEmployes>
 </template>
 
 <style>
