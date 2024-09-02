@@ -78,7 +78,7 @@ import axios from "axios"
 import AddCongeSimple from "@/components/add_conge.vue"
 export default {
     components: { ModalAddEmploye, AddConge, ModifierEmploye, AddCongeSimple },
-
+    name:'listeEmployes',
     data() {
         return {
             add_employe_shown: false,
