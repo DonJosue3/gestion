@@ -1,9 +1,8 @@
 <template>
     <section class="wrapper">
         <div class="separator">
-            <div @click="$store.state.user=null">Logout</div>
+            <div>Logout</div>
             <strong>Liste des utilisateur</strong>
-
             <div class="interaction">
                 <div class="search-filter">
                     <div class="search-items">
@@ -15,7 +14,6 @@
                 </div>
             </div>
         </div>
-
         <div class="table-container">
             <div class="table-wrap-body">
                 <table class="table">
@@ -40,14 +38,11 @@
                         </tr>
                     </tbody>
                 </table>
-               
             </div>
         </div>
-        
     </section>
 </template>
 <script>
-
 export default {
     data(){
         return{
@@ -83,7 +78,6 @@ export default {
     }
 }
 </script>
-
 <style scoped>
 .en_conge{
     background-color:orange;

@@ -1,9 +1,7 @@
 <template>
   <section class="wrapper">
     <div class="separator">
-      <!-- <div></div> -->
       <strong>Liste des presences</strong>
-
       <div class="interaction">
         <div class="search-filter">
           <div class="search-items">
@@ -12,7 +10,6 @@
         </div>
       </div>
     </div>
-
     <div class="table-container">
       <div class="table-wrap-body">
         <table class="table">

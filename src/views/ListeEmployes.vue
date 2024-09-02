@@ -4,7 +4,6 @@
             <!-- <div></div> -->
             <strong>Liste des utilisateur</strong>
             <a href="/salaires">salaire</a>
-            
             <div class="interaction">
                 <div class="search-filter">
                     <div class="search-items">
