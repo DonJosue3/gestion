@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <salaires-view></salaires-view>
+    <ListeEmployes></ListeEmployes>
 </template>
 
 <style>
