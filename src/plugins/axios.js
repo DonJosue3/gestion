@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const axiosInstance = axios.create({
-	baseURL: "https://present-3.onrender.com/urusoro/"
+	baseURL: "http:///localhost:8000/urusoro/"
 })
 
 export default axiosInstance;
